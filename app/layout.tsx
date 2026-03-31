@@ -7,18 +7,17 @@ const playfair = Playfair_Display({
   subsets: ["latin"],
   variable: "--font-serif",
   weight: ["400", "600", "700"],
-  style: ["normal", "italic"],
 });
 
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  weight: ["300", "400", "500", "600", "700"],
+  weight: ["400", "500", "600", "700", "800"],
 });
 
 export const metadata: Metadata = {
-  title: "MNTN – Conquer Your Peaks",
-  description: "Discover the best mountain trails worldwide. Push your limits. Live your adventure.",
+  title: "MNTN – Be Prepared for the Mountains",
+  description: "A hiking guide. Be prepared for the mountains and beyond.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
